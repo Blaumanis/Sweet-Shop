@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filter/Grandmas shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="module.css">
+</head>
+<body class="body">
+<!-- HEADER -->
+    <header>
+        <nav>
+            <a href="#"><img src="https://js-beginners.github.io/filter-project/img/logo.svg" class="logo" alt=""></a>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Store</a></li>
+            </ul>
+            <div class="cta">
+                <a href="tel: +123 456 789" class="tel"><i class="fas fa-phone"></i>+123 456 789</a>
+                <a href="#" class="items" id="cart"><i class="fas fa-shopping-cart"></i><span id="itemCount">0</span> <span id="itemsText">Items - $</span><span id="total">0</span></a>
+            </div>
+            <button class="hamburger" id="hamburger">☰</button>
+        </nav>
+    </header>
+<!--  -->
+<!-- MODULE -->
+    <div class="cart-module">
+        <div class="item-module">
+            <img src="img/one.jpeg" alt="" class="item-module-img">
+            <div class="item-module-text">
+                <div class="item-module-text">
+                    <span class="bold">Cart Item</span>
+                    <span class="bold">$<span class="price-text">5</span></span>
+                </div>
+            </div>
+            <i class="fas fa-trash-alt"></i>
+        </div>
+        <div class="cart-module-total">
+            <span class="cart-module-total-price-text">Total</span>
+            <span class="bold">$<span class="cart-module-total-price-number">0</span></span>
+        </div>
+        <div class="btn-module">
+            <button class="clear-cart">CLEAR CART</button>
+            <button class="checkout">CHECKOUT</button>
+        </div>
+    </div>
+<!--  -->
+<!-- GRABNDMAS -->
+    <main class="grandmas">
+            <h1 class="welcome">Welcome To <span>Grandma's</span></h1>
+            <button class="explore">EXPLORE<a href="#"></a></button>
+    </main>
+    <section class="about-us">
+        <article class="about-us-content">
+            <h2 class="about-us-heading">About <span>Us</span></h2>
+            <p class="about-us-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, aliquam voluptas beatae vitae expedita consectetur nesciunt quia deserunt asperiores facere fuga dicta fugiat corrupti et omnis porro at dolorum! Ad!
+            </p>
+            <button class="about-explore">EXPLORE<a href=""></a></button>
+        </article>
+            <div class="image-container">
+                <img class="macaroons" src="https://js-beginners.github.io/filter-project/img/sweets-1.jpeg" alt="">
+            </div>
+    </section>
+    <section class="our-store-container">
+        <h2 class="our-store">Our <span>Store</span></h2>    
+        <div class="store-buttons">
+            <button class="btn all-btn" id="btn-all">all<a href=""></a></button>
+            <button class="btn cakes-btn" id="btn-cakes">cakes<a href=""></a></button>
+            <button class="btn cupcakes-btn" id="btn-cupcakes">cupcakes<a href=""></a></button>
+            <button class="btn sweets-btn" id="btn-sweets">sweets<a href=""></a></button>
+            <button class="btn doughnuts-btn" id="btn-doughnuts">doughnuts<a href=""></a></button>
+        </div>
+        <span class="search"><i class="fas fa-search"></i><input value="" type="text" class="search-item" id="search-item" placeholder="item...."></span>
+    
+    <section class="sweet-container" id="name">
+        <div class="sweet-item item">
+            <img class="sweet-img imgs" src="img/one.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Sweet Item <span class="price">$5</span></h3>
+        </div>
+        <div class="cupcake-item item">
+            <img class="sweet-img imgs" src="img/two.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cupcake Item<span class="price">&dollar;5</span></h3>
+        </div>
+        <div class="cake-item item">
+            <img class="sweet-img imgs" src="img/three.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cake Item<span class="price">$5</span></h3>
+        </div>
+        <div class="doughnut-item item">
+            <img class="sweet-img imgs" src="img/four.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Doughnut Item<span class="price">$5</span></h3>
+        </div>
+        <div class="sweet-item item">
+            <img class="sweet-img imgs" src="img/five.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Sweet Item<span class="price">$10</span></h3>
+        </div>
+        <div class="cupcake-item item">
+            <img class="sweet-img imgs" src="img/six.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cupcake Item<span class="price">$10</span></h3>
+        </div>
+        <div class="cake-item item">
+            <img class="sweet-img imgs" src="img/seven.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cake Item<span class="price">$10</span></h3>
+        </div>
+        <div class="doughnut-item item">
+            <img class="sweet-img imgs" src="img/eight.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Doughnut Item<span class="price">$10</span></h3>
+        </div>
+        <div class="sweet-item item">
+            <img class="sweet-img imgs" src="img/nine.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Sweet Item<span class="price">$15</span></h3>
+        </div>
+        <div class="cupcake-item item">
+            <img class="sweet-img imgs" src="img/ten.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cupcake Item<span class="price">$15</span></h3>
+        </div>
+        <div class="cake-item item">
+            <img class="sweet-img imgs" src="img/eleven.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Cake Item<span class="price">$15</span></h3>
+        </div>
+        <div class="doughnut-item item">
+            <img class="sweet-img imgs" src="img/twelve.jpeg" alt=""></img>
+            <i class="fas fa-shopping-cart show"></i>
+            <h3>Doughnut Item<span class="price">$15</span></h3>
+        </div>
+    </section>
+    <div> 
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
